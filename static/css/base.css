@@ -61,14 +61,20 @@ body {
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 
 
 /* -------------------------------- Media Queries */
@@ -79,8 +85,6 @@ body {
     max-width: 80%;
   }
 }
-
-
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
